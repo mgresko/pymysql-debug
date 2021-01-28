@@ -41,7 +41,7 @@ except (ImportError, KeyError):
     # KeyError occurs when there's no entry in OS database for a current user.
     DEFAULT_USER = None
 
-DEBUG = True
+DEBUG = False
 
 TEXT_TYPES = {
     FIELD_TYPE.BIT,
